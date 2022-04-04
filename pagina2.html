@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3.2</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Send+Flowers&family=Sunshiney&display=swap" rel="stylesheet">
+
+</head>
+<body style="color: rgb(255, 55, 155);font-family: 'Sunshiney', cursive; font-weight: bold; font-size: 3vh;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Index</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina1.html">Página 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="pagina2.html">Página 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pagina3.html">Página 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br>
+      <h1 class="text-center" style="font-family: 'Send Flowers', cursive; font-weight: bold;">Corazón de Melón: En la Universidad</h1>
+
+
+      <div class="container text-center">
+        <br>
+        <img src="pagina2-1.png"><br><br>
+        <p>Corazón de Melón: En la Universidad es un juego otome francés desarrollado y distribuido por Beemoov, un estudio de videojuegos con sede en Nantes. 
+          El argumento de este juego para chicas gratuito, tiene lugar varios años después de las aventuras de Corazón de Melón. Unos cuatros años después del instituto, nuestro personaje vuelve a la ciudad para continuar en la universidad. ¡Entre el amor, la amistad y los problemas de jóvenes adultos, la vida en la universidad promete ser agitada! Ven y vive tu historia en este juego de amor.</p>
+          <br><br>
+
+        <img src="pagina2-2.png"><br><br>
+        <p>Crea tu propia aventura en Anteros Academy y vive ardientes y palpitantes historias de amor ¡Tu personaje ha crecido mucho desde el Sweet Amoris y es hora de descubrir la vida de joven adulta, en la universidad!</p>
+        <br><br>
+
+        <img src="pagina2-3.png"><br><br>
+        <p>Conquista a tu flechazo preferido y créate una historia única: Conoce a diferentes personajes, habla con ellos, entabla una amistad con ellos e incluso, intenta conquistarles. ¿A quién elegirá tu corazón? ¿Conseguirás gustarle? El guión evoluciona en función en función de tus acciones y elecciones. Los episodios tienen varios finales diferentes. ¡Gracias a las repeticiones, puedes intentar descubrir cada uno de ellos y desbloquear la historia al 100%!</p>
+        <br><br>
+        </div>   
+      <!--Offcanvas componente Bootstrap 1-->
+      <div class="container text-center">
+      <button class="btn btn-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        Ver más información
+      </button>
+      
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">CDM</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <!--Tabs componente Bootstrap 2-->
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Inicio</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Personaje</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">¡Bienvenida a Corazón de Melón: En la Universidad!
+                Han pasado ya cuatro años desde que dejaste el instituto y las cosas han cambiando en la ciudad en la que viviste durante la adolescencia.
+                Encuentra a viejos conocidos y prepárate para conocer a nuevas personas que quizás den un vuelco a tu corazón...</div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Personaliza tu avatar. Pelo, ojos, color de piel, y signo del zodiaco. Adapta tu imagen a las temporadas y a las situaciones con una gran gama de prendas y accesorios disponibles. ¡Cambia de prenda en todo momento y segón tus deseos!</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <br><br>
+
+
+    </div>
+          <!--Scripts bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+</body>
+</html>
